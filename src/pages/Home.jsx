@@ -1,13 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import homeImg from "../assets/home.jpg";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <section className="flex justify-between items-center h-[87vh]">
+    <section className="flex justify-between items-center flex-col-reverse lg:flex-row gap-5 py-10 min-h-[87vh]">
       <div className="flex flex-col gap-3">
         <h1 className="text-6xl">Hi I&apos;m Vivek Parde</h1>
-        <p className="text-2xl">Full Stack Developer</p>
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed once, initially
+            "Full Stack Developer",
+            1000,
+            "React Enthusiastic",
+            1000,
+            "Fast Learner",
+            1000,
+          ]}
+          speed={40}
+          className="text-2xl text-red-500"
+          repeat={Infinity}
+        />
+        {/* <p className="text-2xl"></p> */}
         <p className="max-w-lg text-[#9a9191]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat repellat officia eum, sed laudantium necessitatibus aspernatur explicabo nemo molestias eius tenetur harum sapiente, magnam impedit debitis itaque commodi earum?</p>
         <div className="flex gap-2 mt-6">
           <button className="px-8 py-2 bg-red-500 hover:bg-red-600 rounded-full">Hire me</button>

@@ -12,7 +12,7 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
     return (
-        <nav className="flex justify-between items-center py-4">
+        <nav className="flex justify-between items-center py-4 sticky top-0 px-4 bg-[#1b1a1a] z-10">
             <div className="text-3xl font-extrabold flex-grow">
                 <Link to={"/"}>
                     Port<span className="text-red-500">folio</span>
