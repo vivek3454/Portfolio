@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #1b1a1a;
+    color: #fff;
+    font-weight: 800;
+    overflow-x: hidden;
+}
+
+::selection{
+    background: rgb(225, 76, 76);
+    color: #fff;
+}
