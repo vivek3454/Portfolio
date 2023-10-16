@@ -6,21 +6,28 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <div className="container mx-auto px-4">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <div className="container mx-auto px-4">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+      />
+    </>
   );
 };
 

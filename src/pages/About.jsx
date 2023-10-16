@@ -9,8 +9,8 @@ const About = () => {
   return (
     <section className="py-10">
       <div className="flex flex-col items-center">
-        <h2 className="text-2xl text-center mb-1">About me</h2>
-        <div className="w-16 mr-12 h-[2px] bg-red-500 relative">
+        <h2 className="text-3xl text-center mb-1">About me</h2>
+        <div className="w-20 mr-[70px] h-[2px] bg-red-500 relative">
           <div className="bg-red-500 w-[18px] h-3 absolute -top-1 right-0 rounded-full"></div>
         </div>
       </div>

@@ -10,7 +10,6 @@ const Home = () => {
         <h1 className="text-6xl">Hi I&apos;m Vivek Parde</h1>
         <TypeAnimation
           sequence={[
-            // Same substring at the start will only be typed once, initially
             "Full Stack Developer",
             1000,
             "React Enthusiastic",
@@ -31,7 +30,7 @@ const Home = () => {
       </div>
       <div>
         <div
-          className="bg-[#2a2a2a] max-w-2xl h-[500px] rounded-[90%_90%_45px_45px] p-2 shadow-lg shadow-gray-900">
+          className="bg-[#2a2a2a] max-w-md rounded-[90%_90%_45px_45px] p-2 shadow-lg shadow-gray-900">
           <img src={homeImg} className="w-full h-full rounded-[90%_90%_40px_40px]" alt="Home" />
         </div>
       </div>
