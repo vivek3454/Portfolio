@@ -26,7 +26,7 @@ const Navbar = () => {
             }
             </div>
             <div className={`${isMenuOpen ? "flex" : "hidden"} transition-all duration-200 max-lg:bg-[#1b1a1a] max-sm:w-full max-lg:shadow-md max-lg:shadow-black/50 absolute max-lg:py-4 lg:static top-[68px] max-lg:text-white right-0 transform lg:flex flex-col lg:flex-row lg:translate-x-0 flex-grow justify-between items-center`}>
-                <ul className="flex gap-4 lg:gap-14  lg:border border-gray-700 py-4 px-10 flex-col lg:flex-row rounded-none lg:rounded-full">
+                <ul className="flex gap-4 lg:gap-14  lg:border lg:bg-[#2b2929] border-gray-700 py-4 px-10 flex-col lg:flex-row rounded-none lg:rounded-full">
                     <Link
                         className={`hover:text-red-500 ${pathname === "/" ? "text-red-500" : "text-white"} transition-colors duration-200`}
                         to={"/"}

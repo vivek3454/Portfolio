@@ -3,7 +3,7 @@ import { AiFillProject } from "react-icons/ai";
 import { MdVerified } from "react-icons/md";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import myResume from "../assets/myResume.pdf";
-import aboutGif from "../assets/aboutGif.gif";
+import aboutGif from "../assets/images/aboutGif.gif";
 
 const About = () => {
   return (

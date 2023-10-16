@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import homeImg from "../assets/home.jpg";
+import homeImg from "../assets/images/home.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
