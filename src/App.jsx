@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { Toaster } from "react-hot-toast";
+import Certificates from "./pages/Certificates";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/certificates" element={<Certificates />} />
           </Routes>
         </div>
       </BrowserRouter>

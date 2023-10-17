@@ -13,7 +13,7 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
     return (
-        <nav className="flex justify-between items-center max-w-7xl mx-auto p-4 sticky top-0 bg-[#020c10] z-10">
+        <nav className="flex justify-between items-center max-w-7xl mx-auto p-4 sticky top-0 bg-[#020c10]">
             <div className="text-3xl font-extrabold flex-grow">
                 <Link to={"/"}>
                     Port<span className="text-sky-400">folio</span>
@@ -25,8 +25,8 @@ const Navbar = () => {
                 <MdMenu size={29} />
             }
             </div>
-            <div className={`${isMenuOpen ? "flex" : "hidden"} transition-all duration-200 max-lg:bg-[#232d38] max-sm:w-full max-lg:shadow-md max-lg:shadow-black/50 absolute max-lg:py-4 lg:static top-[68px] max-lg:text-white right-0 transform lg:flex flex-col lg:flex-row lg:translate-x-0 flex-grow justify-between items-center`}>
-                <ul className="flex gap-4 lg:gap-14  lg:border border-gray-700 py-4 px-10 flex-col lg:flex-row rounded-none lg:rounded-full">
+            <div className={`${isMenuOpen ? "flex" : "hidden"} transition-all max-lg:bg-[#232d38] duration-200 max-bg-[#232d38] max-sm:w-full max-lg:shadow-md max-lg:shadow-black/50 absolute max-lg:py-4 lg:static top-[68px] max-lg:text-white right-0 transform lg:flex flex-col lg:flex-row lg:translate-x-0 flex-grow justify-between items-center`}>
+                <ul className="flex gap-4 lg:gap-14 bg-[#232d38] lg:border border-gray-700 py-4 px-10 flex-col lg:flex-row rounded-none lg:rounded-full">
                     <Link
                         className={`hover:text-sky-400 ${pathname === "/" ? "text-sky-400" : "text-white"} transition-colors duration-200`}
                         to={"/"}
@@ -61,6 +61,13 @@ const Navbar = () => {
                         onClick={() => setIsMenuOpen(false)}
                     >
                         Contact
+                    </Link>
+                    <Link
+                        className={`hover:text-sky-400 ${pathname === "/certificates" ? "text-sky-400" : "text-white"} transition-colors duration-200`}
+                        to={"/certificates"}
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        Certificates
                     </Link>
                 </ul>
                 <div className="flex items-center gap-7 text-xl">

@@ -17,17 +17,17 @@ const About = () => {
         </div>
         <div className="max-w-2xl">
           <div className="mb-5 flex gap-5 flex-wrap max-[436px]:justify-center">
-            <div className="w-48 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
+            <div className="w-52 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
               <AiFillProject size={25} />
-              <p>60+</p>
-              <p>Projects completed</p>
+              <p>40+</p>
+              <p>Projects created</p>
             </div>
-            <div className="w-48 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
+            <div className="w-52 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
               <MdVerified size={25} />
               <p>6+</p>
-              <p>Months learning experience</p>
+              <p>Months development experience</p>
             </div>
-            <div className="w-48 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
+            <div className="w-52 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
               <MdVerified size={25} />
               <p>1</p>
               <p>Month internship experience</p>
