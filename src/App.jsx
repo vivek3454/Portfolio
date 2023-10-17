@@ -13,7 +13,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="container mx-auto px-4">
+        <div className="max-w-[1350px] mx-auto px-4">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

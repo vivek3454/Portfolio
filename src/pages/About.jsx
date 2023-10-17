@@ -8,30 +8,29 @@ import aboutGif from "../assets/images/aboutGif.gif";
 const About = () => {
   return (
     <section className="py-10">
-      <div className="flex flex-col items-center">
-        <h2 className="text-3xl text-center mb-1">About me</h2>
-        <div className="w-20 mr-[70px] h-[2px] bg-red-500 relative">
-          <div className="bg-red-500 w-[18px] h-3 absolute -top-1 right-0 rounded-full"></div>
-        </div>
-      </div>
       <div className="flex justify-between items-center gap-8 flex-col lg:flex-row mt-10">
         <div>
           <div
-            className="bg-[#2a2a2a] max-w-sm p-2 shadow-lg rounded-xl shadow-gray-900">
+            className="bg-[#232d38] max-w-sm p-2 shadow-lg rounded-xl shadow-gray-900">
             <img src={aboutGif} className="w-full rounded-lg" alt="Home" />
           </div>
         </div>
         <div className="max-w-2xl">
           <div className="mb-5 flex gap-5 flex-wrap max-[436px]:justify-center">
-            <div className="w-48 h-36 bg-[#2a2a2a] flex flex-col gap-2 p-4 rounded-md">
+            <div className="w-48 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
               <AiFillProject size={25} />
-              <p>40+</p>
+              <p>60+</p>
               <p>Projects completed</p>
             </div>
-            <div className="w-48 h-36 bg-[#2a2a2a] flex flex-col gap-2 p-4 rounded-md">
+            <div className="w-48 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
               <MdVerified size={25} />
               <p>6+</p>
-              <p>Months experience</p>
+              <p>Months learning experience</p>
+            </div>
+            <div className="w-48 h-36 bg-[#232d38] flex flex-col gap-2 p-4 rounded-md">
+              <MdVerified size={25} />
+              <p>1</p>
+              <p>Month internship experience</p>
             </div>
           </div>
           <p className="mb-2">
@@ -43,7 +42,7 @@ const About = () => {
           <p>
             If you have an opportunity that aligns with my skills and passion, I would be thrilled to discuss how I can contribute to your team. Thank you for considering my profile.
           </p>
-          <a href={myResume} download="myResume" className="px-8 py-2 mt-5 flex justify-center items-center gap-2 w-60 bg-[#2a2a2a] hover:bg-white hover:text-black border border-gray-700 rounded-full">Download Resume <BsFillArrowDownCircleFill /></a>
+          <a href={myResume} download="myResume" className="px-8 py-2 mt-5 flex justify-center items-center gap-2 w-60 bg-[#232d38] hover:bg-white hover:text-black border border-gray-700 rounded-full">Download Resume <BsFillArrowDownCircleFill /></a>
         </div>
       </div>
     </section>
