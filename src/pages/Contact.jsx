@@ -27,7 +27,7 @@ const Contact = () => {
   };
   return (
     <section className="py-10">
-      <div className="flex flex-col gap-10 justify-center items-center h-[78vh]">
+      <div className="flex flex-col gap-10 justify-center items-center h-[75vh]">
         <form onSubmit={handleOnSubmit} className="max-w-3xl w-full" >
           <div className="w-full flex items-center flex-col md:flex-row gap-4">
             <input onChange={handleOnChange} value={userInfo.firstname} type="text" name="firstname" className="bg-[#232d38] hover:border-white focus:border-white transition-colors duration-200 py-2 px-3 rounded-md w-full md:w-[50%] border border-gray-700" placeholder="First name" />

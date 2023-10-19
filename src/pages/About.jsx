@@ -42,7 +42,7 @@ const About = () => {
           <p>
             If you have an opportunity that aligns with my skills and passion, I would be thrilled to discuss how I can contribute to your team. Thank you for considering my profile.
           </p>
-          <a href={myResume} download="myResume" className="px-8 py-2 mt-5 flex justify-center items-center gap-2 w-60 bg-[#232d38] hover:bg-white hover:text-black border border-gray-700 rounded-full">Download Resume <BsFillArrowDownCircleFill /></a>
+          <a href={myResume} download="Vivek's Resume" className="px-8 py-2 mt-5 flex justify-center items-center gap-2 w-60 bg-[#232d38] hover:bg-white hover:text-black border border-gray-700 rounded-full">Download Resume <BsFillArrowDownCircleFill /></a>
         </div>
       </div>
     </section>
