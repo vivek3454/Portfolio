@@ -3,7 +3,7 @@ import { AiFillProject } from "react-icons/ai";
 import { MdVerified } from "react-icons/md";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import myResume from "../assets/myResume.pdf";
-import aboutGif from "../assets/images/aboutGif.gif";
+import aboutGif from "../assets/images/Developer.gif";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <div className="flex justify-between items-center gap-8 flex-col lg:flex-row mt-10">
         <div>
           <div
-            className="bg-[#232d38] max-w-sm p-2 shadow-lg rounded-xl shadow-gray-900">
+            className="bg-[#232d38] max-w-sm rounded-xl">
             <img src={aboutGif} className="w-full rounded-lg" alt="Home" />
           </div>
         </div>

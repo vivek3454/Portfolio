@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="text-6xl">Hi I&apos;m Vivek Parde</h1>
         <TypeAnimation
           sequence={[
-            "Full Stack Developer",
+            "Full Stack Web Developer",
             1000,
             "React Enthusiastic",
             1000,
@@ -21,7 +21,6 @@ const Home = () => {
           className="text-2xl text-sky-400"
           repeat={Infinity}
         />
-        {/* <p className="text-2xl"></p> */}
         <p className="max-w-lg text-[#9a9191]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat repellat officia eum, sed laudantium necessitatibus aspernatur explicabo nemo molestias eius tenetur harum sapiente, magnam impedit debitis itaque commodi earum?</p>
         <div className="flex gap-2 mt-6">
           <Link to={"/contact"} className="px-8 py-2 bg-sky-500 hover:bg-sky-600 rounded-full">Hire me</Link>
@@ -30,8 +29,10 @@ const Home = () => {
       </div>
       <div>
         <div
-          className="bg-[#232d38] max-w-md rounded-[90%_90%_45px_45px] p-2 shadow-lg shadow-gray-900">
-          <img src={homeImg} className="w-full h-full rounded-[90%_90%_40px_40px]" alt="Home" />
+          className="animate max-w-md overflow-hidden shadow-lg shadow-gray-900"
+          style={{ borderRadius: "30% 70% 70% 30% / 30% 36% 64% 70%" }}
+        >
+          <img src={homeImg} className="w-full h-full" alt="Home" />
         </div>
       </div>
     </section>
