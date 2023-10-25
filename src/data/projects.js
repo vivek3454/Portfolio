@@ -1,34 +1,14 @@
-import Notes from "../assets/images/notes.png";
-import Movieplex from "../assets/images/movieplex.png";
-import ReactBlog from "../assets/images/react-blog.png";
+import ReactBlogImg from "../assets/images/react-blog.png";
 import Zonecart from "../assets/images/zonecart.png";
 import YoutubeClone from "../assets/images/youtube-clone.png";
 import Codeswear from "../assets/images/codeswear.png";
-import HuntingCoders from "../assets/images/hunting-coders.png";
+import HuntingCoder from "../assets/images/hunting-coders.png";
 import Todo from "../assets/images/mern-todo.png";
 
 export const projects = [
     {
-        name: "Notes",
-        img: Notes,
-        desc: "Add note, Update note, Delete note, Storing notes in local storage.",
-        demo: "https://my-js-notes-app.netlify.app/",
-        github: "https://github.com/vivek3454/Notes-app",
-        category: "javascript",
-        techStack: "html, css, javascript"
-    },
-    {
-        name: "Movieplex",
-        img: Movieplex,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corporis perspiciatis corrupti amet at voluptatibus ratione, tempora culpa obcaecati, commodi aperiam dolor doloribus dolorem necessitatibus. Sunt ratione quos similique voluptatem?",
-        demo: "https://movieplex-js.netlify.app/",
-        github: "https://github.com/vivek3454/Movieplex",
-        category: "javascript",
-        techStack: "html, css, javascript, react, redux"
-    },
-    {
         name: ".Blog",
-        img: ReactBlog,
+        img: ReactBlogImg,
         desc: "User Authentication, Create Post,  Edit Post, Delete Post, Share Post,  Add Post to or remove from Favorite, Theme Toggle.",
         demo: "https://react-blog-snowy.vercel.app/",
         github: "https://github.com/vivek3454/react-blog",
@@ -64,7 +44,7 @@ export const projects = [
     },
     {
         name: "Hunting Coders",
-        img: HuntingCoders,
+        img: HuntingCoder,
         desc: "Clean and visually appealing design, Responsive layout for various screen sizes, Custom navigation bar for easy navigation, homepage, Read and explore full blog posts on dedicated page, Contact form for users to get in touch.",
         demo: "https://hunting-coder-next-js.netlify.app/",
         github: "https://github.com/vivek3454/hunting-coders",

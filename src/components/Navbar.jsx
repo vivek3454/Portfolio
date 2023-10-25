@@ -14,7 +14,7 @@ const Navbar = () => {
     };
     return (
 
-        <nav className="bg-[#020c10] sticky top-0">
+        <nav className="bg-[#020c10] sticky top-0 z-10">
             <div className="flex justify-between items-center max-w-7xl mx-auto p-4">
                 <div className="text-3xl font-extrabold flex-grow">
                     <Link to={"/"}>

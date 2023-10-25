@@ -21,7 +21,7 @@ const Home = () => {
           className="text-2xl text-sky-400"
           repeat={Infinity}
         />
-        <p className="max-w-lg text-[#9a9191]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat repellat officia eum, sed laudantium necessitatibus aspernatur explicabo nemo molestias eius tenetur harum sapiente, magnam impedit debitis itaque commodi earum?</p>
+        {/* <p className="max-w-lg text-[#9a9191]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat repellat officia eum, sed laudantium necessitatibus aspernatur explicabo nemo molestias eius tenetur harum sapiente, magnam impedit debitis itaque commodi earum?</p> */}
         <div className="flex gap-2 mt-6">
           <Link to={"/contact"} className="px-8 py-2 bg-sky-500 hover:bg-sky-600 rounded-full">Hire me</Link>
           <Link to={"/projects"} className="px-8 py-2 bg-[#232d38] hover:bg-white hover:text-black border border-gray-700 rounded-full">My Work</Link>

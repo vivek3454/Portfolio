@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import courseCertificate from "../assets/images/course-certificate.png";
 import internshipCertificate from "../assets/images/internship-certificate.png";
-import Modal from "react-modal";
 import { ImCross } from "react-icons/im";
 
 const Certificates = () => {
@@ -24,18 +23,14 @@ const Certificates = () => {
             <div onClick={() => openModal(internshipCertificate)} className="max-w-xl cursor-pointer">
                 <img src={internshipCertificate} alt="" />
             </div>
-            <Modal
-                isOpen={modalIsOpen}
-                onRequestClose={closeModal}
-                shouldCloseOnOverlayClick
-                shouldCloseOnEsc
-                className={"bg-black/60 w-full h-screen z-50 flex justify-center items-center text-white"}
+            <div
+                className={`bg-black/80 z-20 ${modalIsOpen ? "flex" : "hidden"} fixed top-0 left-0 w-full h-screen justify-center items-center text-white`}
             >
                 <ImCross className="absolute top-2 right-5 text-3xl cursor-pointer" onClick={closeModal} />
                 <div className="max-w-4xl">
                     <img src={certificate} className="w-full object-contain" alt="" />
                 </div>
-            </Modal>
+            </div>
         </section>
     );
 };
