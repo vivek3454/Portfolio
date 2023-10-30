@@ -1,9 +1,9 @@
 const ProjectCard = ({ project, index }) => {
 
     return (
-        <div className={`flex ${index % 2 ? "flex-row-reverse" : "flex-row"} justify-between mb-20`}>
+        <div className={`flex ${index % 2 ? "flex-row-reverse" : "flex-row"} max-lg:flex-col max-lg:items-center justify-between gap-5 mb-20`}>
             <div
-                className="max-w-[500px] h-[250px] rounded-xl relative bg-[#232d38] shadow-md shadow-black/50"
+                className="max-w-[500px] h-auto rounded-xl relative bg-[#232d38] shadow-md shadow-black/50"
             >
                 <img src={project.img} className="w-full h-full rounded-2xl -z-10" alt={project.name} />
             </div>
