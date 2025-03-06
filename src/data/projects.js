@@ -1,5 +1,5 @@
 import ReactBlogImg from "../assets/images/react-blog.png";
-import Zonecart from "../assets/images/zonecart.png";
+import ReelsPro from "../assets/images/reels-pro.png";
 import YoutubeClone from "../assets/images/youtube-clone.png";
 import Codeswear from "../assets/images/codeswear.png";
 import HuntingCoder from "../assets/images/hunting-coders.png";
@@ -13,16 +13,16 @@ export const projects = [
         demo: "https://react-blog-snowy.vercel.app/",
         github: "https://github.com/vivek3454/react-blog",
         category: "react",
-        techStack: "html, css, javascript, react, redux"
+        techStack: "html, css, javascript, react js, redux"
     },
     {
-        name: "Zonecart",
-        img: Zonecart,
-        desc: "Test User, Search Functionality, Category and Brand Filtering, Sorting, Cart Management, Product Detail View,  .",
-        demo: "https://zonekart-react.netlify.app/",
+        name: "Reels Pro",
+        img: ReelsPro,
+        desc: "User register, login and logout using next auth. View and watch video, upload video using image kit",
+        demo: "https://reels-pro-p81h.vercel.app/",
         github: "https://github.com/vivek3454/React-Ecommerce",
-        category: "react",
-        techStack: "html, css, javascript, react"
+        category: "next",
+        techStack: "html, css, javascript, react js, tailwind, next js, imagekit, next auth"
     },
     {
         name: "Youtub Clone",
@@ -31,7 +31,7 @@ export const projects = [
         demo: "https://my-functional-youtube-clone.netlify.app/",
         github: "https://github.com/vivek3454/youtube-clone",
         category: "react",
-        techStack: "html, css, javascript, react"
+        techStack: "html, css, javascript, react js"
     },
     {
         name: "Codeswear",

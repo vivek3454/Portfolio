@@ -10,55 +10,85 @@ import Node from "../assets/images/node-js-icon.png";
 import Express from "../assets/images/express-js-icon.png";
 import MongoDb from "../assets/images/mongo-db-icon.png";
 import Git from "../assets/images/git.png";
+import ShadcnUI from "../assets/images/shadcn-ui.png";
+import ReactHookForm from "../assets/images/react-hook-form.webp";
+import NextAuth from "../assets/images/next-auth.webp";
+import FramerMotion from "../assets/images/motion.webp";
+import Socket from "../assets/images/socket-io.webp";
+import ReactQuery from "../assets/images/React-Query.webp";
 
 
 export const skills = [
     {
-        name:"HTML",
+        name: "HTML",
         img: HTML
     },
     {
-        name:"CSS",
+        name: "CSS",
         img: CSS
     },
     {
-        name:"Tailwind",
+        name: "Tailwind",
         img: Tailwind
     },
     {
-        name:"ChakraUi",
+        name: "ChakraUi",
         img: ChakraUi
     },
     {
-        name:"Javascript",
+        name: "Javascript",
         img: Js
     },
     {
-        name:"React Js",
+        name: "React Js",
         img: React
     },
     {
-        name:"Redux",
+        name: "Redux",
         img: Redux
     },
     {
-        name:"Next Js",
+        name: "Next Js",
         img: Next
     },
     {
-        name:"Node Js",
+        name: "Node Js",
         img: Node
     },
     {
-        name:"Express Js",
+        name: "Express Js",
         img: Express
     },
     {
-        name:"MongoDb",
+        name: "MongoDb",
         img: MongoDb
     },
     {
-        name:"Git",
+        name: "Git",
         img: Git
+    },
+    {
+        name: "Shadcn Ui",
+        img: ShadcnUI
+    },
+    {
+        name: "React Hook Form",
+        img: ReactHookForm
+    },
+    {
+        name: "Next Auth",
+        img: NextAuth
+    },
+    {
+        name: "Framer Motion",
+        img: FramerMotion
+    },
+    {
+        name: "Socket",
+        img: Socket
+    },
+    {
+        name: "React Query",
+        img: ReactQuery
     },
 ];
