@@ -3,14 +3,14 @@ const ProjectCard = ({ project, index }) => {
     return (
         <div className={`flex ${index % 2 ? "flex-row-reverse" : "flex-row"} max-lg:flex-col max-lg:items-center justify-between gap-5 mb-20`}>
             <div
-                className="max-w-[500px] h-auto rounded-xl relative bg-[#232d38] shadow-md shadow-black/50"
+                className="max-w-[550px] h-auto rounded-xl relative bg-[#232d38] shadow-md shadow-black/50"
             >
                 <img src={project.img} className="w-full h-full rounded-2xl -z-10" alt={project.name} />
             </div>
             <div className="max-w-lg">
                 <h2 className="py-2 text-lg">{project.name}</h2>
                 <p className="text-sm font-semibold">{project.desc}</p>
-                <div className="flex items-center pt-5">
+                <div className="flex items-start pt-5">
                     <h3 className="font-medium max-w-[100px] w-full text-sky-400">Tech Stack :</h3>
                     <p className="-ml-1 font-medium text-sm">{project.techStack}</p>
                 </div>
