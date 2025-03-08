@@ -41,7 +41,7 @@ const ExperienceTimeline = () => {
                     <h3 className="vertical-timeline-element-title">Software Development Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Easesmith</h4>
                     <p>
-                        Developing <strong>frontend & backend applications</strong> using <strong>React, Next.js, Node.js, Express.js, MongoDb, Tailwind CSS, Shadcn UI</strong>.
+                        Developing <strong>frontend & backend applications</strong> using <strong>React, Node.js, Express.js, MongoDb, Tailwind CSS, Shadcn UI</strong>.
                         Contributing to <strong>scalable web projects</strong> in a professional environment.
                     </p>
                 </VerticalTimelineElement>
