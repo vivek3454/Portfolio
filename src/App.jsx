@@ -8,10 +8,13 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { Toaster } from "react-hot-toast";
 import Certificates from "./pages/Certificates";
+import CustomCursor from "./components/CustomCursor";
 
 const App = () => {
   return (
     <>
+    {/* <CustomCursor /> */}
+
       <BrowserRouter>
         <Navbar />
         <div className="container mx-auto px-4">
