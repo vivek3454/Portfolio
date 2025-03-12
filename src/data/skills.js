@@ -16,6 +16,7 @@ import NextAuth from "../assets/images/next-auth.webp";
 import FramerMotion from "../assets/images/motion.webp";
 import Socket from "../assets/images/socket-io.webp";
 import ReactQuery from "../assets/images/React-Query.webp";
+import Typescript from "../assets/images/Typescript.png";
 
 
 export const skills = [
@@ -90,5 +91,9 @@ export const skills = [
     {
         name: "React Query",
         img: ReactQuery
+    },
+    {
+        name: "Typescript",
+        img: Typescript
     },
 ];

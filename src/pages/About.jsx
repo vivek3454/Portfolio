@@ -2,7 +2,7 @@ import { AiFillProject } from "react-icons/ai";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { MdVerified } from "react-icons/md";
 import aboutGif from "../assets/images/Developer.gif";
-import myResume from "../assets/myResume.pdf";
+import myResume from "../assets/viveks resume.pdf";
 import { motion } from "motion/react";
 import ExperienceTimeline from "../components/ExperienceTimeline";
 import { FaLaptopCode } from "react-icons/fa";

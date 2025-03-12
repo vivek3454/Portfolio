@@ -7,7 +7,7 @@ const Skills = () => {
     <section className="py-10">
       <div className="flex justify-center items-center min-h-[70vh]">
         <motion.div
-          className="max-w-4xl flex flex-wrap justify-center gap-5 mt-10"
+          className="max-w-4xl flex flex-wrap  gap-5 mt-10"
           initial="hidden"
           animate="visible"
           variants={{

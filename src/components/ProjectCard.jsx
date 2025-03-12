@@ -11,7 +11,7 @@ const ProjectCard = ({ project, index }) => {
             transition={{ duration: 0.6, ease: "easeOut" }}
         >
             <motion.div
-                className="max-w-[550px] h-auto rounded-xl relative bg-[#232d38] shadow-md shadow-black/50 overflow-hidden"
+                className="max-w-[600px] w-full h-[19rem] rounded-xl relative bg-[#232d38] shadow-md shadow-black/50 overflow-hidden"
                 whileHover={{
                     scale: 1.05,
                     boxShadow: "0px 10px 25px rgba(30, 41, 59, 0.4)",
