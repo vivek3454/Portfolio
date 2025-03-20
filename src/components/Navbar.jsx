@@ -102,13 +102,13 @@ const Navbar = () => {
                         >
                             Contact
                         </Link>
-                        <Link
+                        {/* <Link
                             className={`hover:text-sky-400 ${pathname === "/certificates" ? "text-sky-400" : "text-white"} transition-colors duration-200`}
                             to={"/certificates"}
                             onClick={() => setIsMenuOpen(false)}
                         >
                             Certificates
-                        </Link>
+                        </Link> */}
                     </motion.ul>
                     <motion.div
                         initial={{
