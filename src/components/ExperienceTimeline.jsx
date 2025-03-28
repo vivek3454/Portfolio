@@ -11,23 +11,6 @@ const ExperienceTimeline = () => {
             transition={{ duration: 1 }}
         >
             <VerticalTimeline>
-                {/* Internship Experience */}
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: "#232d38", color: "#fff" }}
-                    contentArrowStyle={{ borderRight: "7px solid #232d38" }}
-                    date="June 2023 - July 2023"
-                    iconStyle={{ background: "#38bdf8", color: "#fff" }}
-                    icon={<FaReact />}
-                >
-                    <h3 className="vertical-timeline-element-title">React.js Developer Intern</h3>
-                    <h4 className="vertical-timeline-element-subtitle">AI Hubs</h4>
-                    <p>
-                        Worked on the <strong>UI development</strong> of AI-based platforms using <strong>React.js and Tailwind CSS</strong>.
-                        Designed and implemented <strong>responsive user interfaces</strong> to enhance user experience.
-                        Integrated <strong>React components</strong> and improved <strong>frontend performance</strong> for AI applications.
-                    </p>
-                </VerticalTimelineElement>
 
                 {/* Full-Time Experience */}
                 <VerticalTimelineElement
@@ -43,6 +26,22 @@ const ExperienceTimeline = () => {
                     <p>
                         Developing <strong>frontend & backend applications</strong> using <strong>React, Node.js, Express.js, MongoDb, Tailwind CSS, Shadcn UI</strong>.
                         Contributing to <strong>scalable web projects</strong> in a professional environment.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#232d38", color: "#fff" }}
+                    contentArrowStyle={{ borderRight: "7px solid #232d38" }}
+                    date="May 2023 - Nov 2023"
+                    iconStyle={{ background: "#38bdf8", color: "#fff" }}
+                    icon={<FaReact />}
+                >
+                    <h3 className="vertical-timeline-element-title">React.js Developer</h3>
+                    <h4 className="vertical-timeline-element-subtitle">AI Hubs</h4>
+                    <p>
+                        Worked on the <strong>UI development</strong> of AI-based platforms using <strong>React.js and Tailwind CSS</strong>.
+                        Designed and implemented <strong>responsive user interfaces</strong> to enhance user experience.
+                        Integrated <strong>React components</strong> and improved <strong>frontend performance</strong> for AI applications.
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

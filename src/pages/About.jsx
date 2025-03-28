@@ -2,7 +2,7 @@ import { AiFillProject } from "react-icons/ai";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { MdVerified } from "react-icons/md";
 import aboutGif from "../assets/images/Developer.gif";
-import myResume from "../assets/viveks resume.pdf";
+import myResume from "../assets/Vivek Parde's Resume.pdf";
 import { motion } from "motion/react";
 import ExperienceTimeline from "../components/ExperienceTimeline";
 import { FaLaptopCode } from "react-icons/fa";
@@ -37,7 +37,7 @@ const About = () => {
           >
             {[
               { icon: <AiFillProject size={25} />, title: "50+", desc: "Projects created" },
-              { icon: <MdVerified size={25} />, title: "16+", desc: "Months development experience" },
+              { icon: <MdVerified size={25} />, title: "2", desc: "Years of development experience" },
               { icon: <FaLaptopCode size={25} />, title: "Currently", desc: "Working" }
             ].map((item, index) => (
               <motion.div
@@ -55,8 +55,8 @@ const About = () => {
 
           {/* Animated Paragraphs */}
           {[
-            `I am a Full-Stack Developer with 16+ months of experience, primarily focusing on front-end development. I specialize in building scalable, high-performance web applications with modern technologies.`,
-            `My expertise includes React.js, Next.js, Tailwind CSS for the front end, along with Node.js and MongoDB for the back end. I have experience working on production-level applications, collaborating with teams, and writing clean, maintainable code.`,
+            `I am a Full-Stack Developer with 2 years of experience, primarily focusing on front-end development. I specialize in building scalable, high-performance web applications with modern technologies.`,
+            `My expertise includes React.js, Next.js, Tailwind CSS, Shadcn UI, React Hook Form, Next Auth, Framer Motion, and React Query for the front end, along with Node.js and MongoDB for the back end. I have experience working on production-level applications, collaborating with teams, and writing clean, maintainable code.`,
             `I am passionate about front-end development, UI/UX design, and optimizing web performance. While I am currently working in a company, I am always open to networking and exploring exciting opportunities that align with my skills.`
           ].map((text, index) => (
             <motion.p
